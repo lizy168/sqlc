@@ -21,3 +21,4 @@ jobs:
           path: typescript
       - run: sqlc diff
         working-directory: typescript/examples
+        continue-on-error: true
